@@ -1,0 +1,4 @@
+---
+puppetmaster: 'puppet.local'
+classes:
+  profile::base
