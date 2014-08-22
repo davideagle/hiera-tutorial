@@ -12,5 +12,5 @@ ntp::servers:
   - 3.rhel.pool.ntp.org iburst
 rsyslog::client::host:
   - logs.simnet.is
-rsyslog::client::pattern
+rsyslog::client::pattern:
   - auth.*,authpriv.*, test.*
